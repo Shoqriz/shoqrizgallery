@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F9F3DF;
+}
+#card {
+  background: #FFC898;
+  height: 350px;
+  border-radius: 6px;
+  margin: 150px auto auto auto;
+  width: 300px;
+}
+#card-content {
+  padding: 8px 50px;
+}
+#card-title {
+  font-family: "LEMON-Med";
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+  color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: "LEMON-Tipis";
+    font-size: 12px;
+    color: black;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: #F9F3DF;
+    height: 1px;
+    width: 100%;
+}
+.form-content {
+    background: #F9F3DF;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding-top: 12px;
+}
+#signup {
+    font-family: "LEMON-Med";
+    font-size: 10px;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn {
+    background: #F9F3DF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    font-family: "LEMON-Med";
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 1s;
+    width: 150px;
+}
+#submit-btn:hover {
+    box-shadow: 0px 1px 20px #black;
+}
